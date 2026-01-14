@@ -15,16 +15,17 @@ try {
     $db = Database::getInstance()->getConnection(); 
 
     // 2. Obtener Tipos de Documento
-    $query_doc = "SELECT id, nombre FROM tipo_documento ORDER BY nombre ASC";
+    $query_doc = "SELECT id_tipo_documento, nombre FROM tipo_documento ORDER BY nombre ASC";
     $stmt_doc = $db->prepare($query_doc);
     $stmt_doc->execute();
     $tipos_documento = $stmt_doc->fetchAll(PDO::FETCH_ASSOC);
 
      // 3. Obtener Roles disponibles
-    $query_rol = "SELECT id, nombre FROM roles ORDER BY nombre ASC";
+    $query_rol = "SELECT id_rol, nombre FROM roles ORDER BY nombre ASC";
     $stmt_rol = $db->prepare($query_rol);
     $stmt_rol->execute();
     $roles_disponibles = $stmt_rol->fetchAll(PDO::FETCH_ASSOC);
+     
 
 } catch (PDOException $e) {
     // Si la conexión falla, inicializamos los arrays vacíos para evitar errores en el foreach
@@ -34,6 +35,10 @@ try {
 }
 
 // Configuración de la vista
+$base_url = "index.php"; 
+$exitoso = $_SESSION['success'] ?? null;
+unset($_SESSION['success']);
+
 $base_url = "index.php"; 
 $error = $_SESSION['error'] ?? null;
 unset($_SESSION['error']);
@@ -49,6 +54,12 @@ unset($_SESSION['error']);
                 </div>
             <?php endif; ?>
 
+               <?php if ($exitoso): ?>
+                <div class="alert alert-success text-center mb-4 rounded" role="alert">
+                    <?= htmlspecialchars($exitoso) ?>
+                </div>
+            <?php endif; ?>
+            
             <div class="bg-light p-4 rounded-3 shadow-sm">
                 
                 <form action="<?= BASE_URL ?>module=usuarios&action=crear" method="POST">
@@ -77,7 +88,7 @@ unset($_SESSION['error']);
                                 <option value="" disabled selected>Tipo Doc.</option>
                                 
                                 <?php foreach ($tipos_documento as $tipo): ?>
-                                    <option value="<?= $tipo['id'] ?>"><?= htmlspecialchars($tipo['nombre']) ?></option>
+                                    <option value="<?= $tipo['id_tipo_documento'] ?>"><?= htmlspecialchars($tipo['nombre']) ?></option>
                                 <?php endforeach; ?>
                             </select>
                         </div>
@@ -111,7 +122,7 @@ unset($_SESSION['error']);
                         <option value="" disabled selected>Seleccione el Rol</option>
                         
                         <?php foreach ($roles_disponibles as $rol): ?>
-                            <option value="<?= $rol['id'] ?>"><?= htmlspecialchars($rol['nombre']) ?></option>
+                            <option value="<?= $rol['id_rol'] ?>"><?= htmlspecialchars($rol['nombre']) ?></option>
                         <?php endforeach; ?>
 
                     </select>
@@ -121,6 +132,13 @@ unset($_SESSION['error']);
                             Registrar Usuario
                         </button>
                     </div>
+                    <div class="d-flex justify-content-center mt-3">
+    <a href="<?= BASE_URL ?>module=usuarios&view=login"
+       class="btn btn-light border rounded-pill px-4">
+        Volver a iniciar sesión
+    </a>
+</div>
+
 
                 </form>
                 </div>
