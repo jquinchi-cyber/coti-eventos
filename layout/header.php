@@ -45,7 +45,7 @@
                 <!-- Items al centro -->
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="<?= BASE_URL ?>">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servicios</a>
@@ -61,11 +61,47 @@
                 <!-- ICONOS DERECHA -->
                 <div class="d-flex align-items-center">
 
-                    <!-- mi cuenta -->
-                    <a href="<?= BASE_URL ?>module=usuarios&view=login" class="text-white text-decoration-none me-3 d-flex align-items-center">
-                        <i class="bi bi-person-circle fs-4"></i>
-                        <span class="ms-1">Mi Cuenta</span>
-                    </a>
+                    <!-- Mi cuenta con dropdown -->
+<div class="dropdown me-3">
+    <a href="#" 
+       class="text-white text-decoration-none d-flex align-items-center dropdown-toggle"
+       data-bs-toggle="dropdown">
+
+        <i class="bi bi-person-circle fs-4"></i>
+
+        <?php if (isset($_SESSION['nombre'])): ?>
+            <span class="ms-1"><?= htmlspecialchars($_SESSION['nombre']) ?></span>
+        <?php else: ?>
+            <span class="ms-1">Mi Cuenta</span>
+        <?php endif; ?>
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu-end">
+
+        <?php if (!isset($_SESSION['user_id'])): ?>
+            <li>
+                <a class="dropdown-item" href="<?= BASE_URL ?>module=usuarios&view=login">
+                    Iniciar sesión
+                </a>
+            </li>
+        <?php else: ?>
+            <li>
+                <a class="dropdown-item" href="<?= BASE_URL ?>module=usuarios&view=perfil">
+                    ver mi perfil
+                </a>
+            </li>
+
+            <li><hr class="dropdown-divider"></li>
+
+            <li>
+                <a class="dropdown-item text-danger" href="<?= BASE_URL ?>module=usuarios&action=logout">
+                    Cerrar sesión
+                </a>
+            </li>
+        <?php endif; ?>
+
+    </ul>
+</div>
                     <!-- Carrito -->
                     <a href="#" class="text-white text-decoration-none me-3 d-flex align-items-center">
                         <i class="bi bi-cart fs-4"></i>

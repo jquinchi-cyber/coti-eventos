@@ -54,6 +54,9 @@ $modulosPermitidos = [
     'vestidos',
     'platillos',
     'cocteles',
+    'postres',
+    'tortas',
+    'menu',
     'sonido'
 ];
 
@@ -67,6 +70,9 @@ $accionesPermitidas = [
     'vestidos' => ['crear', 'editar', 'asignar'],
     'platillos' => ['asignar'],
     'cocteles' => ['asignar'],
+    'postres' => ['asignar'],
+    'tortas' => ['asignar'],
+    'menu' => ['asignar'],
     'sonido' => ['asignar']
 ];
 

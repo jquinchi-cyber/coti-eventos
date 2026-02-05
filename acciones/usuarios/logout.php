@@ -4,3 +4,4 @@
 eliminarSesion();
 // 2. Redirigimos al usuario a la página de inicio o al login
 header("Location: " . BASE_URL . "module=home&view=index");
+exit;

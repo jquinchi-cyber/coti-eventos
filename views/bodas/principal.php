@@ -8,8 +8,8 @@
             <div class="carousel-item">
                 <img src="https://i.pinimg.com/736x/65/f9/07/65f907ad8aab4dc8835fb4ae113032d1.jpg" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 2">
             </div>
+              </div>
        
-
         <button class="carousel-control-prev" type="button" data-bs-target="#weddingCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
@@ -37,11 +37,11 @@
                 
                 <a href="<?= BASE_URL ?>module=vestuarios&view=index" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
                     <i class="bi bi-star-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">vestuario</span>
+                    <span class="fs-5 fw-normal text-dark">vestuarios</span>
                     <i class="bi bi-chevron-right ms-auto text-muted small"></i>
                 </a>
 
-                <a href="servicios-banquetes.php" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
+                <a href="<?= BASE_URL ?>module=platillos&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
                     <i class="bi bi-cup-hot-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
                     <span class="fs-5 fw-normal text-dark">Banquete personalizado</span>
                     <i class="bi bi-chevron-right ms-auto text-muted small"></i>

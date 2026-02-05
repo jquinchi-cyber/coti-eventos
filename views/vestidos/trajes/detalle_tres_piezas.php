@@ -43,6 +43,9 @@ Ideal para bodas elegantes y novios que desean un look clásico con carácter.
 <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">L</button>
 <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">XL</button>
 </div>
+                   <a href="#" class="btn btn-dark w-100 py-4 fs-2 rounded-pill mt-5">
+    Añadir al carrito
+</a>
 </div>
 
 </div>
