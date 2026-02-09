@@ -44,67 +44,85 @@
         <!-- Card -->
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/1200x/07/a1/a5/07a1a59125bbf9e3d77092aae590aacc.jpg"
+                 <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_01"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/1200x/1e/92/70/1e92708d4c30a0c225cd6e2a8d6aac8b.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">postre</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Cheesecake de fresa</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                 </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/1200x/dd/e4/58/dde45850b0fd2ade70a526dd8892346d.jpg"
+                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_02"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/736x/da/59/e6/da59e63dc9f9e2a1eea63809174110fd.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">postre</p>
-                    <span class="fw-semibold">350.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Tiramisú con frutos rojos</p>
+                    <span class="fw-semibold fs-4">350.000</span>
                 </div>
+                   </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/b3/b6/f6/b3b6f616559e3618e33ca0d18784f6e4.jpg"
+                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_03"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/1200x/1b/4b/a2/1b4ba2f3118e6e0a998ab3e3c37946ed.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">postre</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Cupcakes de chocolate y vainilla con corazones</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                   </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/10/f9/94/10f99481e1794e30cbf8d30b610f101a.jpg"
+                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_04"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/1200x/a9/5a/e1/a95ae145802d9c053abe032f6904a505.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">postre</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Cheesecake de cereza y chocolate</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                   </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/6f/bf/24/6fbf249a15b79d9241905ebe4687a302.jpg"
+                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_05"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/1200x/80/5a/86/805a86ee978a5b3eb5f4ee2777c36271.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">postre</p>
-                    <span class="fw-semibold">400.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Flan de caramelo</p>
+                    <span class="fw-semibold fs-4">400.000</span>
                 </div>
+                   </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/ca/ba/2c/caba2c83a93bfb9e2b92509f3acb483c.jpg"
+                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_06"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/1200x/75/2d/d0/752dd003966e759728bb23f903af2110.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">postre</p>
-                    <span class="fw-semibold">300.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Copas de mousse de chocolate y vainilla con fresa</p>
+                    <span class="fw-semibold fs-4">300.000</span>
                 </div>
+                   </a>
             </div>
         </div>
 

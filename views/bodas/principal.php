@@ -22,16 +22,18 @@
         
         <div class="col-lg-5 text-center">
             <div class="ratio ratio-1x1 mx-auto shadow-lg rounded-circle overflow-hidden" style="max-width: 400px;">
-                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600" 
+                <img src="https://i.pinimg.com/736x/61/2b/5d/612b5db12e4542a6b79ea282c2e03028.jpg" 
                      class="object-fit-cover" 
                      alt="Pareja">
             </div>
         </div>
 
         <div class="col-lg-7">
-            <h1 class="display-4 fw-light mb-3">Bodas</h1>
-            <p class="lead text-dark">Tu boda merece mucho más que un evento: merece convertirse en un recuerdo eterno.</p>
-            <p class="text-muted mb-4">Diseñamos experiencias únicas y cuidamos cada detalle.</p>
+            <h1 class="display-4 fw-light mb-5">Bodas</h1>
+<p class="lead text-dark fs-4">Tu boda merece mucho más que un evento: merece convertirse en un recuerdo eterno. <br>
+Nos alejamos de lo convencional para diseñar una atmósfera única donde la perfección de cada detalle se encuentra con la magia de lo espontáneo, 
+capturando esas miradas y abrazos que transforman una celebración exclusiva en el legado más emotivo de su historia.</p>
+            <p class="text-muted mb-5 fs-4">Diseñamos experiencias únicas y cuidamos cada detalle.</p>
 
             <div class="list-group list-group-flush">
                 
@@ -47,13 +49,13 @@
                     <i class="bi bi-chevron-right ms-auto text-muted small"></i>
                 </a>
 
-                <a href="servicios-musica.php" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
+                <a href="<?= BASE_URL ?>module=sonido&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
                     <i class="bi bi-music-note-beamed me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
                     <span class="fs-5 fw-normal text-dark">Música en vivo - D.j</span>
                     <i class="bi bi-chevron-right ms-auto text-muted small"></i>
                 </a>
 
-                <a href="servicios-fotografia.php" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
+                <a href="<?= BASE_URL ?>module=fotografia&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
                     <i class="bi bi-camera-video-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
                     <span class="fs-5 fw-normal text-dark">Fotografía y video</span>
                     <i class="bi bi-chevron-right ms-auto text-muted small"></i>

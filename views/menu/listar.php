@@ -15,7 +15,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/1200x/53/3b/0f/533b0f0d1ff5b06d44812a54cdd38a29.jpg"
+                <img src="https://i.pinimg.com/1200x/e3/ee/ce/e3eeceddcabe048061cfe0ffd5f4feb8.jpg"
                      class="d-block w-100" style="height:280px; object-fit:cover;">
             </div>
 
@@ -44,67 +44,85 @@
         <!-- Card -->
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_01"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/736x/40/ad/15/40ad15f9022141e9167ffb3b8a9f167a.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">menu</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Pollo asado con papas doradas</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                          <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_02"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/736x/f2/fc/9f/f2fc9f5de1780c3f6196c8b3a5976f88.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">menu</p>
-                    <span class="fw-semibold">350.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Pollo en salsa cremosa con pasta fusilli</p>
+                    <span class="fw-semibold fs-4">350.000</span>
                 </div>
+                          </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                  <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_03"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/736x/18/8c/96/188c96b5412daf6a6418a238040a630b.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">menu</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Pollo en salsa cremosa con papas fritas</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                  </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                 <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_04"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/736x/ab/9f/97/ab9f9710642147c95dbb24c58f85c5e1.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">menu</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Burrito gratinado relleno de carne y papas</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                 </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                  <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_05"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/736x/0e/71/51/0e715160c52be9109ab681ced38607c9.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">menu</p>
-                    <span class="fw-semibold">400.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Lasaña de carne con queso gratinado</p>
+                    <span class="fw-semibold fs-4">400.000</span>
                 </div>
+                  </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                  <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_06"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/1200x/78/7b/b1/787bb1c06841b39cea02f750a9ae454a.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">menu</p>
-                    <span class="fw-semibold">300.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Carne a la parrilla con pasta cremosa de camarones</p>
+                    <span class="fw-semibold fs-4">300.000</span>
                 </div>
+                  </a>
             </div>
         </div>
 

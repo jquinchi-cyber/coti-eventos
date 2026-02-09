@@ -44,67 +44,85 @@
         <!-- Card -->
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/98/52/1b/98521b4960b5c1ee4ec9b3989e568fdc.jpg"
+                <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_01"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/736x/ac/55/8b/ac558bb2af7e2558ac1234a2ca64b4f8.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">coctel</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Cóctel tropical de durazno</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/20/ad/ec/20adeccab30995f9bd142930429e8010.jpg"
+                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_02"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/1200x/83/ae/e0/83aee08548adfb3a563d51f3d1b68bdd.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">coctel</p>
-                    <span class="fw-semibold">350.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Limonada rosada con menta</p>
+                    <span class="fw-semibold fs-4">350.000</span>
                 </div>
+                             </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/b9/2a/47/b92a472c2441a1db545a0710da817917.jpg"
+                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_03"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/736x/ad/8d/d1/ad8dd1ed104b30bdc9a9e26f902ded3b.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">coctel</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Sunrise tropical</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                             </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/736x/d8/d7/17/d8d717d856242c09a230bee30a96cf7e.jpg"
+                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_04"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/736x/b5/54/8a/b5548a3474bce8eccf1c7d73d9431fd0.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">coctel</p>
-                    <span class="fw-semibold">380.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Piña colada clásica</p>
+                    <span class="fw-semibold fs-4">380.000</span>
                 </div>
+                             </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
+                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_05"
+class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="https://i.pinimg.com/736x/db/ec/f1/dbecf16b2fa734e9fa00cf0c614a68e0.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">coctel</p>
-                    <span class="fw-semibold">400.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Cóctel atardecer de frutos rojos</p>
+                    <span class="fw-semibold fs-4">400.000</span>
                 </div>
+                             </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <img src="https://i.pinimg.com/1200x/90/f5/29/90f5297b363bd2bdbeb515761f501bfe.jpg"
+                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_06"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                <img src="https://i.pinimg.com/736x/d2/c3/09/d2c309a9bb2359c6595753fe10261e53.jpg"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
-                    <p class="mb-0 small">coctel</p>
-                    <span class="fw-semibold">300.000</span>
+                    <p class="mb-5 fw-semibold fs-3">Margarita de limón</p>
+                    <span class="fw-semibold fs-4">300.000</span>
                 </div>
+                             </a>
             </div>
         </div>
 

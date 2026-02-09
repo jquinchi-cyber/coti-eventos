@@ -6,7 +6,6 @@
                 <div class="col-md-4 mb-3 mb-md-0">
                     <ul class="list-unstyled">
                         <li>• Inicio</li>
-                        <li>• Servicios</li>
                         <li>• Galería</li>
                         <li>• Contáctanos</li>
                     </ul>

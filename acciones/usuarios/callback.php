@@ -80,7 +80,7 @@ if ($usuario) {
 
 
     $idUsuario = $pdo->lastInsertId();
-    echo $idUsuario;exit();
+    
 
     // 8️⃣ Crear sesión
     $_SESSION['usuario_id'] = $idUsuario;
