@@ -1,5 +1,5 @@
 <footer class="bg-dark text-white py-4 mt-auto">
-        <div class="container">
+        <div class="container fluid">
             <div class="row align-items-center">
 
                 <!-- MENÚ IZQUIERDA -->

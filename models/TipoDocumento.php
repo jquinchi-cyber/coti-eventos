@@ -1,6 +1,6 @@
 <?php
 // Asegúrate de que DataBase.php esté requerido
-// require_once 'DataBase.php'; 
+require_once 'includes/db_connection.php'; 
 
 /**
  * Clase TipoDocumento
@@ -23,7 +23,7 @@ class TipoDocumento {
     // -----------------------------------------------------------------
     public function __construct() {
         // Inicializa la conexión a la base de datos
-        $this->db = DataBase::connect();
+        $this->db = Database::getInstance()->getConnection();
     }
 
     // -----------------------------------------------------------------

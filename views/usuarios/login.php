@@ -4,6 +4,13 @@
 
 <div class="p-4 rounded shadow bg-light">
 
+<!-- MENSAJE DE ERROR -->
+  <?php if (isset($_SESSION['error'])): ?>
+    <div class="alert alert-danger">
+      <?= $_SESSION['error']; ?>
+    </div>
+  <?php unset($_SESSION['error']); endif; ?>
+
 <!-- FORM LOGIN -->
 <form action="<?= BASE_URL ?>module=usuarios&action=login" method="POST">
 

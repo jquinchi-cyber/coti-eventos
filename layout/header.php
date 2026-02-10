@@ -51,7 +51,7 @@
                         <a class="nav-link" href="#">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galería</a>
+                        <a class="nav-link" href="index.php?module=album&view=galeria">Galería</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contáctanos</a>
@@ -69,7 +69,7 @@
 
         <i class="bi bi-person-circle fs-4"></i>
 
-        <?php if (isset($_SESSION['nombre'])): ?>
+        <?php if (isset($_SESSION['user_id'])): ?>
             <span class="ms-1"><?= htmlspecialchars($_SESSION['nombre']) ?></span>
         <?php else: ?>
             <span class="ms-1">Mi Cuenta</span>
